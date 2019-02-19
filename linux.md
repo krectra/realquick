@@ -1,0 +1,2 @@
+- Copy folder contents to another folder
+  - `cp -a /source/. /dest/`
