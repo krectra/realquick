@@ -15,3 +15,18 @@ If remote origin is set, push to master
 ```bash
 $ git push origin master
 ```
+
+
+#### Levels of git config
+Project Level
+```bash
+$ git config user.name "Krista Mae Rectra" 
+```
+Global Level
+```bash
+$ git config --global user.name "Krista Mae Rectra"
+```
+System Level
+```bash
+$ git config --system user.name "Krista Mae Rectra" 
+```
