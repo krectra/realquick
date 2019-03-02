@@ -26,3 +26,8 @@ Example:
 $ python manage.py migrate <app_name> zero
 ```
 
+#### ERD
+Generate ERD image
+```bash
+$ python manage.py graph_models -a -g -o model.png
+```
