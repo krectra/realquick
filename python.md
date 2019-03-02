@@ -28,6 +28,7 @@ $ python manage.py migrate <app_name> zero
 
 #### ERD
 Generate ERD image
+Install `django-extensions`, `graphviz` and `pydotplus` packages then
 ```bash
 $ python manage.py graph_models -a -g -o model.png
 ```
