@@ -18,7 +18,7 @@ $ git push origin master
 
 #### Renaming local git branch
 ```bash
-$ git branch -m <newname>
+$ git branch -m <old_branch_name> <new_branch_name>
 ```
 
 #### Levels of git config
