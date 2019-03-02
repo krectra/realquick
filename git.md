@@ -16,6 +16,10 @@ If remote origin is set, push to master
 $ git push origin master
 ```
 
+#### Renaming local git branch
+```bash
+$ git branch -m <newname>
+```
 
 #### Levels of git config
 Project Level
