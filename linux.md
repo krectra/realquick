@@ -7,7 +7,7 @@ $ adduser username
 ```bash
 $ usermod -aG sudo username
 ```
-##### To test for sued
+##### To test for sudo
 ```bash
 $ su - username
 ```
@@ -16,7 +16,7 @@ $ sudo ls -la /root
 ```
 
 
-
+### Copy
 #### Copy folder contents to another folder
 ```bash
 $ cp -a /source/. /dest/
