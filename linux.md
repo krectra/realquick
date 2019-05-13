@@ -1,2 +1,6 @@
-- Copy folder contents to another folder
-  - `cp -a /source/. /dest/`
+
+
+#### Copy folder contents to another folder
+```bash
+$ cp -a /source/. /dest/
+```
