@@ -16,6 +16,16 @@ If remote origin is set, push to master
 $ git push origin master
 ```
 
+#### Changing a remote's URL
+To change
+```bash
+$ git remote set-url origin https://github.com/<user_name>/<repository>.git
+```
+To verify
+```bash
+$ git remote -v
+```
+
 #### Renaming local git branch
 ```bash
 $ git branch -m <old_branch_name> <new_branch_name>
