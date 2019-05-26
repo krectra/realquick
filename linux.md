@@ -3,6 +3,10 @@
 ```bash
 $ adduser username
 ```
+#### Change user password
+```bash
+$ sudo passwd username
+```
 #### Add user to the `sudo` group
 ```bash
 $ usermod -aG sudo username
