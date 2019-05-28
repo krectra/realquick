@@ -25,6 +25,17 @@ To verify
 ```bash
 $ git remote -v
 ```
+Alternative:
+Edit via `.git/config`
+```bash
+$ vim .git/config
+```
+Look for the `[remote "origin"]`, and edit its URL
+```
+[remote "origin"]
+url = https://github.com/<user_name>/<repository>.git
+```
+
 
 #### Renaming local git branch
 ```bash
