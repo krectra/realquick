@@ -1,3 +1,10 @@
+#### Tag
+Delete
+```
+$ git push --delete origin <tag_name>
+```
+
+
 #### Existing repo to new repo
 Clone old repo
 ```bash
