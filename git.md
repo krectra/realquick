@@ -4,6 +4,30 @@ Delete
 $ git push --delete origin <tag_name>
 ```
 
+#### Existing project to new repo
+```bash
+$ git init
+```
+Add initial files
+```bash
+$ git add <file_to_add>
+```
+Commit
+```bash
+$ git commit -m "First commit"
+```
+Add remote repo URL
+```bash
+$ git remote add origin <remote_repository_url>
+```
+Verify
+```bash
+$ git remote -v
+```
+Push
+```bash
+$ git push origin master
+```
 
 #### Existing repo to new repo
 Clone old repo
