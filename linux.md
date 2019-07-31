@@ -1,3 +1,15 @@
+### Copy
+#### Copy folder contents to another folder
+```bash
+$ cp -a /source/. /dest/
+```
+
+### Filesystem
+#### Traverse and display size
+```
+$ du -shx /* | sort -rh
+```
+
 ### User
 #### Add user
 ```bash
@@ -17,11 +29,4 @@ $ su - username
 ```
 ```bash
 $ sudo ls -la /root
-```
-
-
-### Copy
-#### Copy folder contents to another folder
-```bash
-$ cp -a /source/. /dest/
 ```
