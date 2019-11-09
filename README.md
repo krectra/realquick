@@ -6,4 +6,5 @@ Shortcuts/Commands
 - [Linux](linux.md)
 - [Python](python.md)
 - [Tmux](tmux.md)
+- [Vagrant](vagrant.md)
 - [Vscode](vscode.md)
