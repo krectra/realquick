@@ -3,6 +3,11 @@ Delete
 ```
 $ git push --delete origin <tag_name>
 ```
+Remove local git tags that are no longer on the remote repository
+```
+$ git tag -l | xargs git tag -d
+$ git fetch --tags
+```
 
 #### Existing project to new repo
 ```bash
