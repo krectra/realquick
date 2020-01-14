@@ -1,4 +1,19 @@
-#### Tag
+### Update a forked repo
+Add the repo to upstream
+```
+$ git remote add upstream <original_repo.git>
+```
+Fetch branches and commits from the upstream repo
+```
+$ git fetch upstream
+```
+Checkout your fork’s local master, then merge changes from upstream/master into it.
+```
+$ git checkout master
+$ git merge upstream/master
+```
+
+### Tag
 Delete
 ```
 $ git push --delete origin <tag_name>
@@ -9,7 +24,7 @@ $ git tag -l | xargs git tag -d
 $ git fetch --tags
 ```
 
-#### Existing project to new repo
+### Existing project to new repo
 ```bash
 $ git init
 ```
@@ -34,7 +49,7 @@ Push
 $ git push origin master
 ```
 
-#### Existing repo to new repo
+### Existing repo to new repo
 Clone old repo
 ```bash
 $ git clone old_repo.git
@@ -52,7 +67,7 @@ If remote origin is set, push to master
 $ git push origin master
 ```
 
-#### Changing a remote's URL
+### Changing a remote's URL
 To change
 ```bash
 $ git remote set-url origin https://github.com/<user_name>/<repository>.git
