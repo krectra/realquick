@@ -4,6 +4,10 @@
 ```
 $ docker ps
 ```
+## Check container log
+```
+docker logs -f <container_id>
+```
 
 ## List images
 ```
