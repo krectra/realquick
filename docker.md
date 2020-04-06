@@ -24,6 +24,14 @@ $ docker stop <container_name>
 Example:
 `docker stop web`
 
+## Run a command
+in `bash`
+```
+$ docker exec -ti <container_name> bash
+```
+Example:
+`docker exec -ti web bash`
+
 
 ## Housekeeping
 Delete all images
