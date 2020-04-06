@@ -25,6 +25,14 @@ Example:
 `docker stop web`
 
 
+## Housekeeping
+Delete all images
+NOTE: Use at your risk. Should not be used in Production.
+```
+$ docker rmi $(docker images -a -q)
+```
+`fish-shell` command:
+`docker rmi (docker images -a -q)`
 
 
 # Docker Compose
@@ -41,6 +49,7 @@ $ docker-compose -f <yaml_filename> down
 ```
 Example:
 `docker-compose -f docker-compose-local.yml down
+
 
 
 
